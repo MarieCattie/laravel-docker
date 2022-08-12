@@ -1,0 +1,6 @@
+body {
+  background-color: antiquewhite;
+}
+body * {
+  color: rgb(65, 0, 65);
+}
