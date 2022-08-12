@@ -14,7 +14,7 @@
                             Нет ни одной задачи
                         @else
                         @if (session('completed'))
-                            <div class="alert alert-success">Задача выполнена, вы молодец!</div>
+                            <div class="alert alert-success">Задача выполнена,  вы молодец!</div>
                         @endif
                         <x-tasklist>
                             @foreach ($tasks as $task)
